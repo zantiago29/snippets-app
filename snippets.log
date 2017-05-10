@@ -4,3 +4,73 @@ INFO:root:Constructor parser
 INFO:root:Constructor parser
 INFO:root:Constructor parser
 INFO:root:Constructor parser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+pyINFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things'
+<<<<<<<<< saved version
+ERROR:root:FIXME: Unimplemented - put('list', 'A sequence of things'
+ERROR:root:FIXME: Unimplemented - get('list')
+<<<<<<<<< saved version
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+=========
+=========
+
+>>>>>>>>> local version
+>>>>>>>>> local versionINFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - put('list', ' a sequence of things'
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+ERROR:root:FIXME: Unimplemented - put('list', ' a sequence of things'
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - get('list')
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - put('thing', 'a thing'
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - get('thing')
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+ERROR:root:FIXME: Unimplemented - get('four')
