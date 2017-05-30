@@ -35,6 +35,28 @@ def get(name):
         # No snippet was found with that name.
         return "404: Snippet Not Found"
     return row [0]
+    
+def search(query):
+    """Search for snippets containing query.
+    Returns a list of snippets.
+    """
+    logging.info("Retrieving list of snippets matching query {!r}.".format(query))
+    command = "select keyword, message from snippets where message like %s"
+    with connection, connection.cursor() as cursor:
+        cursor.execute(command, ('%' + query + '%',)) #Go over this line
+        rows = [row for row in cursor.fetchall()] #how does the fetchall function works
+    return rows   
+
+def catalog():
+        """Get the list of existing keywords in database.
+        Returns a list of keywords.
+        """
+        logging.info("Retrieving list of snippet keywords.")
+        command = "select keyword from snippets"
+        with connection, connection.cursor() as cursor:
+            cursor.execute(command)
+            keywords = [row[0] for row in cursor.fetchall()]
+        return keywords
 
 def main():
     """Main function"""
@@ -54,6 +76,15 @@ def main():
     get_parser = subparsers.add_parser("get", help="Retrieve the snippet")
     get_parser.add_argument("name", help="Name of the snippet")
     
+    # Subparser for the search command
+    logging.debug("Constructing search subparser")
+    search_parser = subparsers.add_parser("search", help="Store a snippet")
+    search_parser.add_argument("query", help="A query to search for in snippets.")
+    
+    # Subparser for the catalog command
+    logging.debug("Constructing catalog subparser")
+    catalog_parser = subparsers.add_parser("catalog", help="Store a snippet")
+    
     arguments = parser.parse_args()
     
     # Convert parsed arguments from Namespace to dictionary
@@ -66,7 +97,21 @@ def main():
     elif command == "get":
         snippet = get(**arguments)
         print("Retrieved snippet: {!r}".format(snippet))
+    elif command == "search":
+        rows = search(**arguments) #do I only use ** when passing arguments to the function?
+        log_message = "Sucessfully retrieved snippets:\n"
+        log_message += '\n'.join('{!r}: {!r}'.format(name, snippet[:10] + '...')
+        for name, snippet in rows)
+        logging.info(log_message)
+        print ("Snippets matching search query:\n{}".format(rows)) #is there a difference {} vs {!r}
     
+        
+    elif command == "catalog":
+        keywords = catalog()
+        logging.info("Sucessfully retrieved keywords catalog:\n{}".format('\n'.join(keywords))) #Go over "Join"
+        print("Retrieved keywords:\n{}".format('\n'.join(keywords)))
+    
+        
 if __name__ == "__main__":
     main()
     

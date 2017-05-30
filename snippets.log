@@ -450,3 +450,162 @@ DEBUG:root:Constructing put subparser
 DEBUG:root:Constructing get subparser
 INFO:root:Retrieving snippet 'Hi'
 DEBUG:root:Snippet retrieved successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippet keywords.
+INFO:root:Sucessfully retrieved keywords catalog:
+delete
+change
+Test
+Test1
+Hi
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippet keywords.
+INFO:root:Sucessfully retrieved keywords catalog:
+delete
+change
+Test
+Test1
+Hi
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippet keywords.
+INFO:root:Sucessfully retrieved keywords catalog:
+delete
+change
+Test
+Test1
+Hi
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Storing snippet 'Name': 'My Names Is Santiago'
+DEBUG:root:Snippet stored successfully.
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippet keywords.
+INFO:root:Sucessfully retrieved keywords catalog:
+delete
+change
+Test
+Test1
+Hi
+Name
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
+DEBUG:root:Connecting to PostgreSQL
+DEBUG:root:Database connection established
+INFO:root:Constructor parser
+DEBUG:root:Constructing put subparser
+DEBUG:root:Constructing get subparser
+DEBUG:root:Constructing search subparser
+DEBUG:root:Constructing catalog subparser
+INFO:root:Retrieving list of snippets matching query 'Santiago'.
+INFO:root:Sucessfully retrieved snippets:
+'Name': 'My Names I...'
